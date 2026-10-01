@@ -1,0 +1,29 @@
+/* Customização de visual da aplicação Streamlit */
+.main {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+.stButton>button {
+    width: 100%;
+    border-radius: 8px;
+    height: 3em;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.metric-card {
+    background-color: #1e293b;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    margin-bottom: 10px;
+}
